@@ -24,6 +24,7 @@ public class LoginPage {
     public LoginPage fillDetals(UserLoginDetails userLoginDetails) {
         emailTextBox().fill(userLoginDetails.getUserEmail());
         passwordTextBox().fill(userLoginDetails.getUserPassword());
+        signInButton().click();
         return this;
     }
 

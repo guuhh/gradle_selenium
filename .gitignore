@@ -21,12 +21,14 @@
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+.gradle/3.1/**
 
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
+*.ipr
 
 ## Plugin-specific files:
 
@@ -76,3 +78,9 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/gradle,intellij
+.idea/modules/
+.idea/vcs.xml
+src/main/
+src/test/java/Controlers/Message.java
+src/test/java/IOSpreadsheets/
+src/test/resources/

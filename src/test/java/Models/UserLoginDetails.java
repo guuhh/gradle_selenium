@@ -4,8 +4,8 @@ package Models;
  * Created by grodrigu on 10/4/16.
  */
 public class UserLoginDetails {
-    public static UserLoginDetails INVALID_EMAIL_DETALS = new UserLoginDetails("invalid.password@gmail.com","invalid password");
-    public static UserLoginDetails INVALID_EMAIL_EMPTY = new UserLoginDetails("","invalid password");
+    public static final UserLoginDetails INVALID_EMAIL_DETALS = new UserLoginDetails("invalid.password@gmail.com","invalid password");
+    public static final UserLoginDetails INVALID_EMAIL_EMPTY = new UserLoginDetails("","invalid password");
 
     private String userEmail;
     private String userPassword;
