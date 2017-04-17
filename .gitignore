@@ -81,6 +81,3 @@ gradle-app.setting
 .idea/modules/
 .idea/vcs.xml
 src/main/
-src/test/java/Controlers/Message.java
-src/test/java/IOSpreadsheets/
-src/test/resources/
